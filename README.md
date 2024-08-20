@@ -1,22 +1,15 @@
----
-layout: post
-title:  "Analyze the elfloader by MikhailProg"
-date:   2024-07-22 19:39:02 +0800
-categories: [Linux] 
----
-
 
 
 # project
 
-原项目:  https://github.com/MikhailProg/elf
+原项目: [ https://github.com/MikhailProg/elf]( https://github.com/MikhailProg/elf)
 
 ```
 watch 5 ; fork 28 ; start 109 ; 
 until 2024/08/20
 ```
 
-当前项目:  可以用vscode生成和调试 ,含一些中文注释
+当前项目:  [https://github.com/redqx/elfloader-MikhailProg](https://github.com/redqx/elfloader-MikhailProg) 可以用vscode生成和调试 ,含一些中文注释
 
 
 
