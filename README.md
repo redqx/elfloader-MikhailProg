@@ -162,6 +162,7 @@ If the loader needs to load a dynamically linked ELF it places an interpreter (u
 Default build is for amd64:
 
 ```
+$ cd src
 $ make
 ```
 
@@ -179,22 +180,6 @@ $ make SMALL=1
 
 ## Load binaries
 
-Run basic hello world test:
-
-```
-$ ./test.sh 
-default        : PASS
-static         : PASS
-pie            : PASS
-static pie     : PASS
-```
-
-Run tests if the loader is built for i386:
-
-```
-$ M32= ./test.sh
-...
-```
 
 Load ls:
 
